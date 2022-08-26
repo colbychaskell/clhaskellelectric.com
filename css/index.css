@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  height: 90px;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+} 
+
+.hero {
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero-background {
+  object-fit: cover;
+}
+
+.hero-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 39.8%;
+  height: calc(100% - 50px);
+  background: rgba(34, 34, 34, 0.8);
+  padding: 50px 0 0 50px;
+}
+
+#hero-logo {
+  height: 11.5%;
+  width: 62.11%;
+}
+
+.main-content {
+  height: 100%;
+  background: rgba(0,0,1,1);
+}
+.logos {
+  height: 30px;
+  margin: 15px;
+  margin-left: 30px;
+}
