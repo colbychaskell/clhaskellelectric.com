@@ -1,28 +1,20 @@
 import './Home.css';
-import heroImg from './hero-img.png';
+import React from 'react';
+import Hero from './components/Hero'
 
 function Home() {
   return (
+    <React.StrictMode>
     <div className="Home">
-      {/* <header className="header">
-        <img src={logo} className="logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <div className="hero">
-        <img src={heroImg} className="hero-bg" alt="company truck" />
+      <Hero />
+      <div className="content">
         
       </div>
+      <div className='footer'>
+
+      </div>     
     </div>
+    </React.StrictMode>
   );
 }
 
