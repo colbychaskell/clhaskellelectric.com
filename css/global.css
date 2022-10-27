@@ -77,16 +77,21 @@ button {
 
 .box-heading {
   font-weight: bold;
-  font-size: 20;
-  padding: 10px 0px;
+  font-size: 16pt;
+  margin: 0px !important;
+  text-align: start;
   color: var(--white);
+  padding: 0% 5%;
   background-color: var(--black);
 }
 
 .box-row {
-  font-weight: 300;
-  font-size: 16;
+  font-weight: 400;
+  font-size: 16pt;
   color: var(--black);
+  text-align: start;
+  padding: 0% 5%;
+  margin: 0.5em !important;
 }
 
 header {
@@ -120,4 +125,10 @@ header a {
 .title {
   display: flex;
   align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

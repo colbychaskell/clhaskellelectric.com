@@ -4,6 +4,10 @@ body, html {
   margin: 0;
 }
 
+.box-heading {
+  margin: 0px !important;
+}
+
 .hero-image {
   background-image: url("../assets/hero-img.png");
   
