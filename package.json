@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "name": "cl-haskell-and-son",
+  "version": "2.0.0",
+  "description": "Official C.L. Haskell & Son Inc. website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbychaskell/CL-Haskell-and-Son.git"
+  },
+  "author": "Colby Haskell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colbychaskell/CL-Haskell-and-Son/issues"
+  },
+  "homepage": "https://github.com/colbychaskell/CL-Haskell-and-Son#readme"
+}
