@@ -8,61 +8,34 @@
 			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet" />
 		<link href="css/index.css" rel="stylesheet" />
 		<link href="icon.png" rel="shortcut icon" type="image/png" />
+		<script src="components/header.js" type="text/javascript" defer></script>
 		<title>Contact Us | C.L. Haskell &amp; Son Inc.</title>
 	</head>
 
-	<body><!--Navbar static-->
-		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-			<div class="img-container"><a class="navbar-brand" href="index.html"><img height="40px" id="logo"
-						src="assets/LOGO.png" style="margin-bottom: 10px;" /> </a></div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a class="nav-link" href="index.html">Home<span
-								class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-					<li class="nav-item"><a class="nav-link" href="past-projects.html">Past Projects</a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<!--Main page content-->
-		<section class="row" id="main">
+	<body>
+		<header-nav></header-nav>
+		<section class="row my-auto" id="main">
 			<div class="col-sm my-auto">
-				<p align="center">Our mailing address is <strong>P.O. Box 43, Stonington, Maine 04681</strong></p>
+				<h1 class="text-center"><strong>Contact Us</strong></h1>
+				<div class="px-5">
+					<p>We are available Monday through Friday from 7:00 AM to 4:00 PM. <br /> <br />Feel free to 
+						contact us with any questions you may have. We will do our best to make sure 
+						you get the services you need as soon as possible.</p>
+	
+					<p>Phone: (207) 367-2715<br />
+						Fax: (207) 367-2585<br />
+						Email: <a href="mailto:clhaskell@clhaskellelectric.com">clhaskell@clhaskellelectric.com</a>
+					</p>
 
-				<p align="center">Our office is located at 78 Oceanville Rd. in Stonington, Maine.</p>
-
-				<p align="center">In case of an emergency, call us and leave a message. We monitor our<br />
-					messages on a regular basis and will get back to you shortly.<br />
-					<br />
-					Phone: (207) 367-2715<br />
-					Fax: (207) 367-2585
-				</p>
-
-				<p align="center">You can also contact us by email at:<br />
-					<font color="#000125"><a
-							href="mailto:clhaskell@clhaskellelectric.com">clhaskell@clhaskellelectric.com</a>
-					</font>&nbsp;
-				</p>
+					<p>Our mailing address is <strong>P.O. Box 43, Stonington, Maine 04681</strong></p>
+				</div>
 			</div>
 
-			<div class="col-sm mt-5">
-				<div><iframe frameborder="0" height="400" scrolling="no"
+			<div class="col-sm my-auto d-none d-lg-block">
+				<div>
+					<iframe frameborder="0" height="400" scrolling="no"
 						src="https://www.bing.com/maps/embed?h=400&amp;w=500&amp;cp=44.180375999999995~-68.650064&amp;lvl=15&amp;typ=d&amp;sty=r&amp;src=SHELL&amp;FORM=MBEDV8"
 						width="500"></iframe>
-
-					<div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;"><a
-							href="https://www.bing.com/maps?cp=44.180375999999995~-68.650064&amp;sty=r&amp;lvl=15&amp;FORM=MBEDLD"
-							id="largeMapLink" target="_blank">View Larger Map</a> &nbsp; | &nbsp; <a
-							href="https://www.bing.com/maps/directions?cp=44.180375999999995~-68.650064&amp;sty=r&amp;lvl=15&amp;rtp=~pos.44.180375999999995_-68.650064____&amp;FORM=MBEDLD"
-							id="dirMapLink" target="_blank">Get Directions</a></div>
 				</div>
 			</div>
 		</section>
