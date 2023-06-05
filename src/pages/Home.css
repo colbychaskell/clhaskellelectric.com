@@ -1,0 +1,13 @@
+.btn-default {
+  background-color: var(--company-orange);
+  border: 2px solid var(--company-orange);
+}
+
+.btn-default:hover {
+  background-color: var(--company-orange);
+  border: 2px solid var(--company-orange);
+}
+
+.foot {
+  outline: 1px solid black;
+}

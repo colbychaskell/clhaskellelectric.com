@@ -1,0 +1,13 @@
+.btn-primary {
+  background-color: var(--company-orange) !important;
+  border: 2px solid var(--company-orange) !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--company-orange-light) !important;
+  border-color: var(--company-orange-light) !important;
+  /* border-radius: 8px; */
+  /* color: black !important; */
+}

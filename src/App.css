@@ -1,5 +1,19 @@
+:root {
+  --company-orange: #FE9E24;
+  --company-orange-light: #FFBA6F;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 .App-logo {
