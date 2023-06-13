@@ -17,15 +17,15 @@ const Home = () => {
 
   return (
     <>
-      <Hero />
+      <Hero  />
       <About />
       <TitledSection title='Contact Us'>
-        <Row>
-          <Col lg={5}>
+        <Row className="justify-content-between">
+          <Col xl={5}>
             <ContactForm />
           </Col>
-          <Col>
-            <MapLocation location={officeLocation} zoomLevel={10} />
+          <Col lg={5}>
+            <MapLocation className='p-0 pe-5 d-xl-block d-none' location={officeLocation} zoomLevel={10} />
           </Col>
         </Row>
       </TitledSection>

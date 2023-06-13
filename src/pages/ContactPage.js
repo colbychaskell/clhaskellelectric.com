@@ -18,6 +18,13 @@ const ContactPage = () => {
           <p><b>Mailing Address: </b>P.O. Box 43, Stonington, ME 04681</p>
           <p><b>Physical Address: </b>76 Oceanville Rd, Stonington, ME 04681</p>
 
+          <h1 className='mt-5 mb-3'>Billing Information</h1>
+          <p>Please mail checks to P.O. Box 43, Stonington, ME 04681. This is our only <u>Mailing Address</u>.</p>
+          <p>We may be able to offer credit card or online ACH payments for some projects.
+            Please call us to discuss your options.</p>
+          <p>We strive to provide detailed billing information for all customer projects. If you
+            have a billing question, give us a call any time during business hours and we will do
+            our best to make it right!</p>
         </Col>
         <Col md={5} className='mx-auto mt-1'>
           <h1>Contact Us</h1>

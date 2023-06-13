@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 
-const MapLocation = () => {
+const MapLocation = (props) => {
   return (
-    <Container fluid className='p-0 mx-5 d-lg-block d-none'>
+    <Container fluid {...props}>
 
       <div className="embed-responsive mb-auto">
         <iframe

@@ -1,8 +1,9 @@
 import { useState } from 'react';
 
-import Button from 'react-bootstrap/Button';
+import ButtonPrimary from './ButtonPrimary';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+
 
 function ContactForm() {
   const [validated, setValidated] = useState(false);
@@ -24,7 +25,7 @@ function ContactForm() {
       <Form.Text className="text-muted">
         This is a secure form. We will never share your information.
       </Form.Text>
-      <Form.Group className="mb-2" controlId="formBasicName">
+      <Form.Group className="mb-2 mt-3" controlId="formBasicName">
         <Form.Label>Full Name</Form.Label>
         <InputGroup hasValidation>
           <Form.Control type="text" placeholder="Enter Name" required />
@@ -75,9 +76,9 @@ function ContactForm() {
           </Form.Control.Feedback>
         </InputGroup>
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <ButtonPrimary type="submit">
         Submit
-      </Button>
+      </ButtonPrimary>
     </Form>
   );
 }

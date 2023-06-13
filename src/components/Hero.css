@@ -10,8 +10,12 @@ div.row.hero {
   background-size: cover;
 }
 
-.hero-text a {
+.hero-text p > a {
   color: var(--company-orange) !important;
+}
+
+.hero-text p > a:hover {
+  color: var(--company-orange-light) !important;
 }
 
 div.hero-text h1,
@@ -22,15 +26,4 @@ div.hero-text p {
 
 div.hero-text h1 {
   font-style: italic;
-}
-
-.hero-text .btn-cta {
-  background-color: var(--company-orange) !important;
-  border: 2px solid var(--company-orange) !important;
-  color: white !important;
-  font-weight: bold !important;
-}
-
-.btn-cta:hover {
-  background-color: var(--company-orange);
 }
