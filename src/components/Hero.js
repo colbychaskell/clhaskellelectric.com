@@ -9,8 +9,10 @@ const Hero = () => {
   return (
     <Row className='hero'>
       <Col md={5} className='px-5 hero-text h-100'>
-        <h1 className='my-5'>Licensed Electricians in Stonington, ME</h1>
-        <p>Our team of electricians has been serving Stonington and neighboring towns since 1983. We offer a wide range of electrical services to meet all of your electrical needs.</p>
+      <h1 className='mt-5'>C.L. Haskell & Son Inc.</h1>
+      <h1 className='mb-5'>Licensed Electricians</h1>
+        {/* <h1 className='my-5'>Licensed Electricians in Stonington, ME</h1> */}
+        <p>Our team of electricians has been serving Stonington and the neighboring towns since 1983. We offer a wide range of services to meet all of your electrical needs.</p>
         <p>Feel free to call with any questions!</p>
         <p className='my-5'>Open Monday - Friday: 7:00am - 4:00pm</p>
 

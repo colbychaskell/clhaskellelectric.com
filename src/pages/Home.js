@@ -25,7 +25,7 @@ const Home = () => {
             <ContactForm />
           </Col>
           <Col lg={5}>
-            <MapLocation className='p-0 pe-5 d-xl-block d-none' location={officeLocation} zoomLevel={10} />
+            <MapLocation className='p-0 pe-5 d-xl-block d-none' location={officeLocation}  />
           </Col>
         </Row>
       </TitledSection>

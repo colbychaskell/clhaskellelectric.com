@@ -11,7 +11,6 @@ const MapLocation = (props) => {
           height='500'
           className='d-block embed-responsive-item mx-auto'
           loading="lazy"
-          allowfullscreen
           src="https://www.google.com/maps/embed/v1/view?zoom=10&center=44.2245%2C-68.6778&key=AIzaSyApnPITKc7ruOYGRqgPsdba352tZvAIx-k">
         </iframe>
       </div>

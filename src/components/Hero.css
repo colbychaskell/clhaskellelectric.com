@@ -25,5 +25,6 @@ div.hero-text p {
 }
 
 div.hero-text h1 {
-  font-style: italic;
+  /* font-style: italic; */
+  font-weight: bold;
 }

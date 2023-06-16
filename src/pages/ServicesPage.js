@@ -17,28 +17,23 @@ const ServicesPage = () => {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col className='col-lg-5'>
-            <h4>Island Service</h4>
-            <p>We are happy to provide services to the surrounding islands, including Isle au Haut. We operate our own service boat and we will transport our crew and equipment to the islands as needed.</p>
-          </Col>
-          <Col className='col-lg-5'>
-            <h4>Residential Electrical Installations</h4>
+        <Row className='my-5'>
+          <Col className='my-3 col-12 col-md-6'>
+            <h4>Residential and Commercial Electrical Services</h4>
             <p>
-              We specialize in residential electrical installations, including wiring, outlets,
-              switches, light fixtures, and more. Our experienced electricians ensure that your
-              home's electrical system is safe, efficient, and up to code.
+              Our team handles both residential and commercial electrical installations, including wiring, outlets,
+              switches, light fixtures, and more. Our team can help you with both new constructions and repairs.
             </p>
           </Col>
-          <Col className='col-lg-5'>
-            <h4>Commercial Electrical Repairs</h4>
+          <Col className='my-3 col-12 col-md-6'>
+            <h4>Home Solar Systems</h4>
             <p>
-              Our team is skilled in handling commercial electrical repairs, diagnosing issues,
-              and providing effective solutions. Whether it's faulty wiring, circuit breaker problems,
-              or lighting malfunctions, we have the expertise to get your business back up and running.
+              We have installed and serviced a variety of solar systems for homes and businesses. We can help you
+              determine the right solar system for your needs and budget. We also offer solar system services to
+              the surrounding islands.
             </p>
           </Col>
-          <Col className='col-lg-5'>
+          <Col className='my-3 col-12 col-md-6'>
             <h4>Electrical Panel Upgrades</h4>
             <p>
               If your electrical panel is outdated or insufficient for your power needs, we can help
@@ -46,7 +41,7 @@ const ServicesPage = () => {
               upgrade to ensure optimal electrical performance and safety for your home or business.
             </p>
           </Col>
-          <Col className='col-lg-5'>
+          <Col className='my-3 col-12 col-md-6'>
             <h4>Lighting Installations</h4>
             <p>
               Enhance your space with our professional lighting installations. Whether you need
@@ -54,7 +49,7 @@ const ServicesPage = () => {
               of options to suit your preferences and budget.
             </p>
           </Col>
-          <Col className='col-lg-5'>
+          <Col className='my-3 col-12 col-md-6'>
             <h4>Generator Sales & Service</h4>
             <p>
               We are an authorized Generac dealer, and we sell, install, and service Generac
@@ -63,14 +58,17 @@ const ServicesPage = () => {
               We also service Onan, Briggs & Stratton, Kohler, and other generator brands.
             </p>
           </Col>
-          <Col className='col-lg-5'>
+          <Col className='my-3 col-12 col-md-6'>
+            <h4>Island Service</h4>
+            <p>We are happy to provide services to the surrounding islands, including Isle au Haut. We operate our own service boat and we will transport our crew equipment to the islands as needed.</p>
+          </Col>
+          <Col className='my-3 col-12 col-md-6'>
             <h4>And More...</h4>
             <p>
               In addition to the services mentioned here, we offer many more personalized services. <Link to="/contact">Contact us</Link> to
               discuss your specific needs.
             </p>
           </Col>
-
         </Row>
       </TitledSection>
     </Container>
