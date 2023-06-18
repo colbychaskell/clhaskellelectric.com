@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.bad8489a.js",
-    "static/js/787.7c324621.chunk.js": "/static/js/787.7c324621.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.bad8489a.js.map": "/static/js/main.bad8489a.js.map",
-    "787.7c324621.chunk.js.map": "/static/js/787.7c324621.chunk.js.map"
+    "main.css": "./static/css/main.96d3da11.css",
+    "main.js": "./static/js/main.5e226f53.js",
+    "static/js/787.356f0d73.chunk.js": "./static/js/787.356f0d73.chunk.js",
+    "static/media/hagen-dock.png": "./static/media/hagen-dock.ffad1ba6c7160f95509d.png",
+    "static/media/logo.png": "./static/media/logo.7ecdeabd57e0a47408cd.png",
+    "index.html": "./index.html",
+    "main.96d3da11.css.map": "./static/css/main.96d3da11.css.map",
+    "main.5e226f53.js.map": "./static/js/main.5e226f53.js.map",
+    "787.356f0d73.chunk.js.map": "./static/js/787.356f0d73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bad8489a.js"
+    "static/css/main.96d3da11.css",
+    "static/js/main.5e226f53.js"
   ]
 }
