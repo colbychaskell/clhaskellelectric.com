@@ -15,12 +15,12 @@ const SiteNav = () => {
             alt="C.L. Haskell & Son Inc." className="ms-3" />
         </Navbar.Brand>
       </LinkContainer>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className='me-3'/>
+      <Navbar.Collapse id="basic-navbar-nav"> 
         <Nav className="ms-auto me-3">
-        <LinkContainer to="/"><Nav.Link>Home</Nav.Link></LinkContainer>
-        <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer>
-        <LinkContainer to="/contact"><Nav.Link>Contact</Nav.Link></LinkContainer>
+          <LinkContainer to="/" className='ms-3'><Nav.Link>Home</Nav.Link></LinkContainer>
+          <LinkContainer to="/services" className='ms-3'><Nav.Link>Services</Nav.Link></LinkContainer>
+          <LinkContainer to="/contact" className='ms-3'><Nav.Link>Contact</Nav.Link></LinkContainer>
         {/* TODO: */}
         {/* <LinkContainer to="/billing"><Nav.Link>Billing</Nav.Link></LinkContainer> */}
         </Nav>

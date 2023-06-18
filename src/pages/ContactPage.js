@@ -5,11 +5,11 @@ import Row from 'react-bootstrap/Row';
 
 const ContactPage = () => {
   return (
-    <Container className="p-5 min-vh-100" fluid>
+    <Container className="py-5 px-4 min-vh-100" fluid>
       <Row>
         <Col md={5} className='mx-auto mt-1 mb-5'>
           <h1>Contact Information</h1>
-          <h5 className='mb-4'>Feel free to contact us directly via the information below!</h5>
+          <h5 className='mb-4'>Feel free to fill out our form or contact us directly</h5>
           {/* table of contact information  */}
           <p><b>Phone:</b> 207-367-2715</p>
           <p><b>Fax:</b> 207-367-2716</p>

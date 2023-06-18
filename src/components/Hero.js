@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <Row className='hero'>
-      <Col md={5} className='px-5 hero-text h-100'>
+    <Row className='hero g-0' >
+      <Col md={5} className='px-4 hero-text h-100'>
       <h1 className='mt-5'>C.L. Haskell & Son Inc.</h1>
       <h1 className='mb-5'>Licensed Electricians</h1>
         {/* <h1 className='my-5'>Licensed Electricians in Stonington, ME</h1> */}
