@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.96d3da11.css",
-    "main.js": "./static/js/main.5e226f53.js",
-    "static/js/787.356f0d73.chunk.js": "./static/js/787.356f0d73.chunk.js",
-    "static/media/hagen-dock.png": "./static/media/hagen-dock.ffad1ba6c7160f95509d.png",
-    "static/media/logo.png": "./static/media/logo.7ecdeabd57e0a47408cd.png",
-    "index.html": "./index.html",
-    "main.96d3da11.css.map": "./static/css/main.96d3da11.css.map",
-    "main.5e226f53.js.map": "./static/js/main.5e226f53.js.map",
-    "787.356f0d73.chunk.js.map": "./static/js/787.356f0d73.chunk.js.map"
+    "main.css": "/static/css/main.c325582f.css",
+    "main.js": "/static/js/main.76706a07.js",
+    "static/js/787.356f0d73.chunk.js": "/static/js/787.356f0d73.chunk.js",
+    "static/media/hagen-dock.png": "/static/media/hagen-dock.ffad1ba6c7160f95509d.png",
+    "static/media/efficiency-maine.png": "/static/media/efficiency-maine.79a3e1b606565ca96225.png",
+    "static/media/logo.png": "/static/media/logo.7ecdeabd57e0a47408cd.png",
+    "static/media/generac.png": "/static/media/generac.9e900bfb0fd7a00e5e56.png",
+    "index.html": "/index.html",
+    "main.c325582f.css.map": "/static/css/main.c325582f.css.map",
+    "main.76706a07.js.map": "/static/js/main.76706a07.js.map",
+    "787.356f0d73.chunk.js.map": "/static/js/787.356f0d73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96d3da11.css",
-    "static/js/main.5e226f53.js"
+    "static/css/main.c325582f.css",
+    "static/js/main.76706a07.js"
   ]
 }
