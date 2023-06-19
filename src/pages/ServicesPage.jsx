@@ -37,7 +37,7 @@ const ServicesPage = () => {
             <h4>Electrical Panel Upgrades</h4>
             <p>
               If your electrical panel is outdated or insufficient for your power needs, we can help
-              with panel upgrades. We'll assess your electrical demands and recommend the right panel
+              with panel upgrades. We&apos;ll assess your electrical demands and recommend the right panel
               upgrade to ensure optimal electrical performance and safety for your home or business.
             </p>
           </Col>
