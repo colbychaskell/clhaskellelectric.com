@@ -49,6 +49,8 @@ function ContactForm() {
         setValidated(true);
         return;
       }
+    } else {
+      setShowMessage(false);
     }
 
     setShowMessage(true);
