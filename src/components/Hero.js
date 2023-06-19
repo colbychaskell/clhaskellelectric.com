@@ -17,7 +17,7 @@ const Hero = () => {
         <p className='my-5'>Open Monday - Friday: 7:00am - 4:00pm</p>
 
         <div className='my-5'>
-          <ButtonPrimary href='tel:207-367-5042' className='my-2 btn-lg btn-cta'>Call Us: 207-367-5042</ButtonPrimary>
+          <ButtonPrimary href='tel:207-367-2715' className='my-2 btn-lg btn-cta'>Call Us: 207-367-5042</ButtonPrimary>
           <p className='p-0 mt-3 mb-5'>View our <Link to="/contact">contact page</Link> for office and mailing information</p>
         </div>
       </Col>
