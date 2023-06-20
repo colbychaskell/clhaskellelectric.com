@@ -11,8 +11,9 @@ const processContactForm = async (name, email, phone, topic, message) => {
   });
   const headers = {'Content-Type': 'application/json'};
 
+  const url = 'http://cl-haskell-backend.azurewebsites.net/api/contact';
   // Post form data to backend
-  const response = await fetch('/api/contact', {method: 'POST', body, headers})
+  const response = await fetch(url, {method: 'POST', body, headers})
 
   if (!response.ok) {
     const res = await response.json();
