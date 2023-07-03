@@ -1,6 +1,5 @@
 const processContactForm = async (name, email, phone, topic, message) => {
   const _csrf = 'dummy';
-  // TODO: Send form data to backend
   const body = JSON.stringify({
     name: name,
     email: email,
@@ -9,9 +8,10 @@ const processContactForm = async (name, email, phone, topic, message) => {
     message: message,
     csrf: _csrf,
   });
-  const headers = {'Content-Type': 'application/json'};
 
-  const url = 'https://cl-haskell-backend.azurewebsites.net/api/contact';
+  const headers = {'Content-Type': 'application/json'};
+  const url = "https://clhaskellelectric-74pv534tgq-uc.a.run.app/api/contact";
+  
   // Post form data to backend
   const response = await fetch(url, {method: 'POST', body, headers})
 
