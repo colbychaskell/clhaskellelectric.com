@@ -51,6 +51,7 @@ function ContactForm() {
       }
     } else {
       setShowMessage(false);
+      setValidated(true);
       return;
     }
 
