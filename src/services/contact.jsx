@@ -1,4 +1,6 @@
 const processContactForm = async (name, email, phone, topic, message) => {
+  console.log(import.meta.env.VITE_API_URL);
+
   const _csrf = 'dummy';
   const body = JSON.stringify({
     name: name,
@@ -10,7 +12,8 @@ const processContactForm = async (name, email, phone, topic, message) => {
   });
 
   const headers = {'Content-Type': 'application/json'};
-  const url = "https://clhaskellelectric-74pv534tgq-uc.a.run.app/api/contact";
+  const url = import.meta.env.VITE_API_URL + "/api/contact";
+  console.log(import.meta.env.VITE_API_URL);
   
   // Post form data to backend
   const response = await fetch(url, {method: 'POST', body, headers})
