@@ -1,10 +1,10 @@
 :root {
-  --company-orange: #FE9E24;
-  --company-orange-light: #FFBA6F;
+  --company-orange: #fe9e24;
+  --company-orange-light: #ffba6f;
 }
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a.btn-primary {
@@ -15,7 +15,7 @@ a.btn-primary {
 }
 
 a.btn-primary:hover {
-  background-color: rgba(0,0,0,0) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
   border-color: var(--company-orange) !important;
   color: var(--company-orange) !important;
 }
@@ -36,7 +36,7 @@ button.btn-primary {
 }
 
 button.btn-primary:hover {
-  background-color: rgba(0,0,0,0) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
   border-color: var(--company-orange) !important;
   color: var(--company-orange) !important;
 }

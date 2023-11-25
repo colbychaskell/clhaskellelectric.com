@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 const TitledSection = ({ title, children }) => (
   <Container fluid className='pt-5 px-4 px-md-5'>
-    <h1>{title}</h1>
-        {children}
+    <h2>{title}</h2>
+    {children}
   </Container>
 )
 
