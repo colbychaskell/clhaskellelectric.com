@@ -5,7 +5,7 @@
 }
 
 div.row.hero {
-  background: url("../img/hagen-dock.png") no-repeat center center;
+  /* background: url("../img/hagen-dock.png") no-repeat center center; */
   background-position: top;
   background-size: cover;
 }
